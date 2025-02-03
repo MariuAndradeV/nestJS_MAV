@@ -1,0 +1,15 @@
+1. crear Controladores 
+2. crear providers
+3. DTO
+4. conexion a FRONT (VIRE + REACT + TS)
+
+
+
+
+
+git add .
+git commit -m "Descripción de los cambios"
+git push origin master
+git push origin main
+
+
