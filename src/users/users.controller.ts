@@ -25,7 +25,7 @@ export class UsersController {
     findAll(@Query('role') role?: 'INTERN' | 'ENGINEER' | 'ADMIN'){
         return this.userService.findAll(role)
     } //la logica de esto se maneja en services, y luego se inyecta en controller
-
+   
     @Get('interns') // GET /users/interns
     findAllInterns(){
         return []
